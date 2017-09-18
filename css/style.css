@@ -74,7 +74,7 @@ a:hover,a:active,a:focus{
 }
 .block_title:before,.block_title:after {
     content: "";
-    background: #ccc;
+    background: #CBD8DF;
     display: inline-block;
     height: 1px;
     position: relative;
