@@ -89,7 +89,27 @@ a:hover,a:active,a:focus{
     left: 0.5em;
     margin-right: -42%;
 }
-
+#about-us-block-title {
+	margin-top: 60px; 
+	margin-bottom: 40px;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#service-block-title {
+	margin-top: 60px; 
+	margin-bottom: 60px;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contact-block-title {
+	margin-top: 60px; 
+	margin-bottom: 60px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  02 - Header 
