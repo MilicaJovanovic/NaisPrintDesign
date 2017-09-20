@@ -760,3 +760,25 @@ footer {
 .blue-line {
 	border: 1px solid #CBD8DF;
 }
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+.my-icon {
+	font-size: 34px !important;
+	color: #19191B;
+	display: block;
+	float: left;
+	width: 15%;
+}
+
+.my-text {
+	font-size: 16px;
+	color: #19191B;
+	display: block;
+	float: left;
+	width: 85%;
+	margin-top: 5px;
+}
