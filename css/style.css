@@ -104,7 +104,7 @@ a:hover,a:active,a:focus{
 	margin-right: auto;
 }
 #contact-block-title {
-	margin-top: 60px; 
+	margin-top: 20px; 
 	margin-bottom: 60px;
 	width: 100%;
 	margin-left: auto;
@@ -781,4 +781,55 @@ footer {
 	float: left;
 	width: 85%;
 	margin-top: 5px;
+}
+
+#contactForm {
+	background-color: #E3EAEE;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.my-input {
+	border: none !important;
+	border-bottom: 2px solid #E3EAEE !important;
+	color: #19191B;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+.my-area {
+	border: 2px solid #E3EAEE !important;
+	resize: none;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+
+.my-label {
+	margin: 0px;
+	padding: 0px;
+}
+
+#btn-send {
+	width: 17%;
+	height: 70px;
+	margin-left: 41.5%;
+	margin-right: 41.5%;
+	background-color: #E3EAEE;
+	border: 2px solid #19191B !important;
+	color: #19191B;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#btn-send:hover {
+	background-color: #19191B;
+	border: 3px solid #E3EAEE !important;
+	color: #E3EAEE;
 }

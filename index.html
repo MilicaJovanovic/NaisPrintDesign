@@ -126,7 +126,7 @@
               <hr class="section-heading-spacer white-line">
               <div class="clearfix"></div>
               <h2 class="section-heading">Reklamni materijal</h2>
-              <p class="justify-text">Proizvode koje imate  u ponudi možete predstaviti širem potrošačkom auditorijumu pomoću različitih vrsta promo materijala.<br><br><strong>Flajer, trolist</strong> - jednolistni ili na preklop koncipiran reklamni materijal, namenjem distribuciji velikom broju ljudi.<br><strong>Katalog proizvoda</strong> - detaljan način da se svojim kupcima predstavite.<br><strong>Pfset štampa</strong> - štampa namenjena prevashodno velikim tiražima u ovoj oblasti dolazi do maksimalnog izražaja.<br>U slučaju da se bavite literarnim radom, imamo veliko iskustvo u grafičkoj opremi knjiga (<strong>prleom teksta, obrada fotografija, dizajn naslovnice</strong>), tako i u samoj štampi i izradi.<br>U tom smislu smo u mogućnosti da Vam ponudimo još jednu od naših delatnosti - <strong>izdavačka delatnost.</strong></p>
+              <p class="justify-text">Proizvode koje imate  u ponudi možete predstaviti širem potrošačkom auditorijumu pomoću različitih vrsta promo materijala.<br><br><strong>Flajer, trolist</strong> - jednolistni ili na preklop koncipiran reklamni materijal, namenjem distribuciji velikom broju ljudi.<br><strong>Katalog proizvoda</strong> - detaljan način da se svojim kupcima predstavite.<br><strong>Pfset štampa</strong> - štampa namenjena prevashodno velikim tiražima u ovoj oblasti dolazi do maksimalnog izražaja.<br>U slučaju da se bavite literarnim radom, imamo veliko iskustvo u grafičkoj opremi knjiga (<strong>prelom teksta, obrada fotografija, dizajn naslovnice</strong>), tako i u samoj štampi i izradi.<br>U tom smislu smo u mogućnosti da Vam ponudimo još jednu od naših delatnosti - <strong>izdavačka delatnost.</strong></p>
             </div>
             <div class="col-lg-5 mr-auto">
               <img class="img-fluid img-left" src="img/dog.png" alt="">
@@ -226,7 +226,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="btn-center"><a href="#" class="big button">Vidi sve</a></div>
+                <button type="submit" id="btn-send">Vidi sve</button>
             </div>
         </div>
     </section>
@@ -234,12 +234,11 @@
     <section id="contact-us">
       <div class="container">
         <h2 class="block_title" id="contact-block-title">Kontakt informacije</h2>
-        <div class="row" style="width: 100%;" id="contact-us">
+        <div class="row">
           <div class="col-lg-8 mb-4">
-            <!-- <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe> -->
             <div id="map"></div>
           </div>
-          <div class="col-lg-4 mb-4" style="margin-top: 90px;">
+          <div class="col-lg-4 mb-4" style="margin-top: 105px;">
             <div style="width: 100%;">
               <i class="fa fa-map-marker my-icon" aria-hidden="true"></i>
               <p class="my-text">Majakovskog 97, 18 000 Niš, Srbija</p>
@@ -267,37 +266,24 @@
     <section>
       <div class="container">
         <h2 class="block_title" id="contact-block-title">Pošaljite nam upit</h2>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Ime i prezime:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Broj telefona:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Email adresa:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Poruka:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              </div>
-            </div>
-            <div id="success"></div>
-            <button type="submit" class="btn btn-primary">Pošaljite</button>
-          </form>
+        <div>
+          <label class="my-label">Ime i prezime:</label>
+          <input type="text" class="form-control my-input" id="name">
+        </div>
+        <div>
+          <label>Broj telefona:</label>
+          <input type="tel" class="form-control my-input" id="phone">
+        </div>
+        <div>
+          <label>Email adresa:</label>
+          <input type="email" class="form-control my-input" id="email">
+        </div>
+        <div>
+          <label>Poruka:</label>
+          <textarea rows="10" cols="100" class="form-control my-area" id="message"></textarea>
+        </div>
+        <button type="submit" id="btn-send">Pošalji</button>
       </div>
-    </section>
     </section>
 
     <footer class="py-5 bg-dark">
